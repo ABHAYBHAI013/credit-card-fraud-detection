@@ -58,8 +58,6 @@ h1,h2,h3 {
 
 # -----------------------------------
 # LOAD MODEL & SCALER
-# -----------------------------------
-
 try:
 
     model = joblib.load("fraud_model.pkl")
